@@ -1,0 +1,1 @@
+kill @e[type=text_display,tag=old_tag_sign,limit=1]

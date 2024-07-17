@@ -1,0 +1,1 @@
+execute as @e[type=text_display,tag=tag_sign,limit=1] run data merge entity @e[type=text_display,tag=tag_sign,limit=1] {start_interpolation:0,transformation:{left_rotation:[0.0f,1.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[4.0f,4.0f,4.0f],translation:[0.0f,0.0f,0.0f]},interpolation_duration:8}

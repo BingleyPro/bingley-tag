@@ -1,0 +1,1 @@
+scoreboard players set cooldown find_interacted 0

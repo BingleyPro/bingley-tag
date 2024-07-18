@@ -1,6 +1,6 @@
 # Slide Out Old Sign
 tag @e[tag=tag_sign,limit=1] add old_tag_sign
-tag @e[tag=tag_sign,limit=1] remove tag_sign
+tag @e[tag=old_tag_sign] remove tag_sign
 data merge entity @e[type=text_display,tag=old_tag_sign,limit=1] {start_interpolation:0,transformation:{left_rotation:[0.0f,1.0f,0.0f,0.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[4.0f,4.0f,4.0f],translation:[9.0f,0.0f,0.0f]},interpolation_duration:8}
 schedule function bingley-tag:lobby/signs/game_type/game_type_kill 0.4s
 

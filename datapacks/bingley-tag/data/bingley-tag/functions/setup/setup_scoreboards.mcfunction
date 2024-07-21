@@ -14,3 +14,7 @@ data modify storage bingley-tag:settings/game_type2 colour set value "aqua"
 
 data modify storage bingley-tag:settings/game_type3 name set value "Spread Tag"
 data modify storage bingley-tag:settings/game_type3 colour set value "dark_green"
+
+# Settings for Corruption Tag
+scoreboard objectives add corruption_tag_settings dummy
+scoreboard players set hearts corruption_tag_settings 2

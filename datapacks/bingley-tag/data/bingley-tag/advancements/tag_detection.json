@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "entity": {
+                    "type": "player",
+                    "nbt": "{Tags:[\"tagger\",\"player\"]}"
+                },
+                "damage": {
+                    "source_entity": {
+                        "type": "player",
+                        "nbt": "{Tags:[\"player\"]}"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+scoreboard players set ?is_game_running game_info 1

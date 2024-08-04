@@ -4,6 +4,7 @@ scoreboard objectives add settings dummy
 # --- Add scoreboard for consts --- #
 scoreboard objectives add consts dummy
 scoreboard players set 1 consts 1
+scoreboard players set 100 consts 100
 
 # --- Revert main settings to default --- #
 scoreboard players set game_type settings 1
@@ -32,3 +33,7 @@ scoreboard players set hearts corruption_tag_settings 2
 
 # --- Queue Scoreboard --- #
 scoreboard objectives add queue dummy
+scoreboard objectives add cooldown dummy
+scoreboard objectives add game_info dummy
+
+scoreboard players set ?is_game_running game_info 0
